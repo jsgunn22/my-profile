@@ -178,3 +178,15 @@ nav {
 #summary-text div {
   margin-bottom: 16px;
 }
+
+#hero-tag {
+  background-color: var(--primary-500);
+  color: var(--neutral-000);
+  width: fit-content;
+  position: relative;
+  bottom: 80px;
+  right: 32px;
+  margin-left: auto;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
