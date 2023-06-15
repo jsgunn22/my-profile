@@ -103,6 +103,7 @@ body {
   width: 100%;
 }
 
+/* Header and Nav links */
 header {
   height: 64px;
   width: 100%;
@@ -142,6 +143,7 @@ nav {
   text-decoration: none;
 }
 
+/* Hero section */
 #hero img {
   height: 272px;
   width: 100%;
@@ -185,8 +187,27 @@ nav {
   width: fit-content;
   position: relative;
   bottom: 80px;
-  right: 32px;
+  right: 136px;
   margin-left: auto;
   padding: 4px 12px;
   border-radius: 4px;
+}
+
+main section {
+  display: flex;
+  margin: 0 32px;
+}
+
+#about-me-title {
+  color: var(--primary-500);
+  min-width: 296px;
+  margin-right: 40px;
+  justify-content: flex-end;
+  padding: 16px;
+  border-right: var(--primary-500) solid 4px;
+  text-align: right;
+}
+
+#about-me p {
+  width: auto;
 }
