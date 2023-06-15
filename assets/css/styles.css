@@ -193,12 +193,21 @@ nav {
   border-radius: 4px;
 }
 
-main section {
-  display: flex;
+/* Main */
+main {
   margin: 0 32px;
 }
 
-#about-me-title {
+main section {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+main img {
+  border: var(--primary-500) solid 4px;
+}
+
+.left-title {
   color: var(--primary-500);
   min-width: 296px;
   margin-right: 40px;
@@ -210,4 +219,22 @@ main section {
 
 #about-me p {
   width: auto;
+}
+
+#most-recent-app {
+  width: 100%;
+  overflow: hidden; /* used to keep image from breaking out of div. */
+  margin-bottom: 16px;
+}
+
+#work-img-grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+#work-img-grid img {
+  flex: 1 0 200px;
+  width: 200px;
 }
