@@ -1,3 +1,5 @@
+/* README: Added styles to be reused across projects. All of which are part of a design system that I have been building to enhance my knowledge of UI Design.*/
+
 /* Contains style variables to be reused throughout the page */
 :root {
   --neutral-000: #e9ebf8;
@@ -38,4 +40,53 @@
   --opacity-success: #2eb96e26;
   --opacity-warning: #f0b77526;
   --opacity-danger: #fd595926;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h4 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.large-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.medium-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.small-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
 }
