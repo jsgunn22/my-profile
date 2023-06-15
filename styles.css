@@ -1,0 +1,41 @@
+/* Contains style variables to be reused throughout the page */
+:root {
+  --neutral-000: #e9ebf8;
+  --neutral-100: #f8f8f9;
+  --neutral-200: #f0f1f2;
+  --neutral-300: #cdd3d6;
+  --neutral-400: #b9bec1;
+  --neutral-500: #a4a9ab;
+  --neutral-600: #9a9ea1;
+  --neutral-700: #7b7f80;
+  --neutral-800: #5c5f60;
+  --neutral-900: #484a4b;
+
+  --primary-100: #e0eff5;
+  --primary-500: #2e94b9;
+  --primary-900: #1c596f;
+
+  --secondary-100: #ede0f4;
+  --secondary-500: #872eb8;
+  --secondary-900: #511c6e;
+
+  --success-100: #e0f5e9;
+  --success-500: #2eb96e;
+  --success-900: #1c6f42;
+
+  --warning-100: #fdf4ea;
+  --warning-500: #f0b775;
+  --warning-900: #906e46;
+
+  --danger-100: #ffe6e6;
+  --danger-500: #fd5959;
+  --danger-900: #983535;
+
+  /* Stylistic opacities.  Uses '26' at the end of the hex to set opacity to 15% */
+  --opcaity-neutral: #484a4b26;
+  --opacity-primary: #2e94b926;
+  --opacity-secondary: #872eb826;
+  --opacity-success: #2eb96e26;
+  --opacity-warning: #f0b77526;
+  --opacity-danger: #fd595926;
+}
