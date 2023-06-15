@@ -141,3 +141,40 @@ nav {
   color: inherit;
   text-decoration: none;
 }
+
+#hero img {
+  height: 272px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#summary {
+  position: absolute;
+  top: 104px;
+  left: 136px;
+  display: flex;
+}
+
+#summary img {
+  height: 192px;
+  width: 192px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+#summary-text {
+  background-color: #00000080;
+  color: var(--neutral-000);
+  border-radius: 8px;
+  padding: 16px 16px 0 16px;
+  height: fit-content;
+  margin: auto;
+}
+
+#summary-text h2 {
+  margin-bottom: 4px;
+}
+
+#summary-text div {
+  margin-bottom: 16px;
+}
