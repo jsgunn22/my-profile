@@ -208,6 +208,7 @@ main img {
 }
 
 .left-title {
+  /* styles the left section */
   color: var(--primary-500);
   min-width: 296px;
   margin-right: 40px;
@@ -221,9 +222,12 @@ main img {
   width: auto;
 }
 
+#work-imgs {
+  width: 100%;
+}
+
 #most-recent-app {
   width: 100%;
-  overflow: hidden; /* used to keep image from breaking out of div. */
   margin-bottom: 16px;
 }
 
@@ -235,6 +239,29 @@ main img {
 }
 
 #work-img-grid img {
-  flex: 1 0 200px;
-  width: 200px;
+  flex: 1 0 332px;
+  width: 332px;
+}
+
+/* footer section */
+footer section {
+  display: flex;
+  margin: 0 32px 24px 32px;
+}
+
+#contact-me {
+  justify-content: space-between;
+}
+
+.contact-link {
+  color: var(--primary-500);
+  border-bottom: var(--primary-500) solid 2px;
+  height: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contact-link a {
+  color: inherit;
+  text-decoration: none;
 }
