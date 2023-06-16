@@ -426,3 +426,15 @@ footer section {
     width: auto;
   }
 }
+
+@media screen and (max-width: 640px) {
+  #summary {
+    display: block;
+    margin-left: auto;
+  }
+
+  #summary img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
