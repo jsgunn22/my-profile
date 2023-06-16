@@ -327,7 +327,7 @@ footer section {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   #work-img-grid {
     width: 100%;
     display: flex;
