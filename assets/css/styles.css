@@ -326,3 +326,103 @@ footer section {
     margin-top: 8px;
   }
 }
+
+@media screen and (max-width: 640px) {
+  #work-img-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .small-img {
+    flex: 1 0 200px;
+    width: 100px;
+  }
+
+  #about-me {
+    display: block;
+  }
+
+  .left-title {
+    border-right: none;
+    border-bottom: var(--primary-500) solid 4px;
+    width: fit-content;
+    min-width: 0px;
+    text-align: left;
+    padding-left: 0px;
+    margin-bottom: 16px;
+    margin-right: none;
+    padding: 8px 0;
+  }
+
+  .left-title h1 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  #my-work {
+    display: block;
+  }
+
+  #contact-me {
+    display: block;
+  }
+
+  .contact-link {
+    border: none;
+  }
+
+  .contact-link h3 {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #summary-text h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  header {
+    display: block;
+    height: fit-content;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -24px;
+    margin-top: 16px;
+  }
+
+  .nav-link {
+    height: fit-content;
+  }
+
+  .nav-link h3 {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #hero img {
+    height: 232px;
+  }
+
+  #summary {
+    top: 142px;
+  }
+
+  #summary img {
+    height: 112px;
+    width: auto;
+  }
+}
