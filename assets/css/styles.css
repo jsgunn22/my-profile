@@ -432,6 +432,10 @@ footer section {
     width: 100%;
   }
 
+  main {
+    margin: 0 16px;
+  }
+
   #hero img {
     height: 332px;
   }
@@ -442,7 +446,7 @@ footer section {
 
     display: block;
     transform: translateY(-308px);
-    margin: 0 32px -272px 32px;
+    margin: 0 16px -272px 16px;
   }
 
   #summary img {
