@@ -437,10 +437,12 @@ footer section {
   }
 
   #summary {
+    position: static;
     text-align: center;
-    width: 100% -32px;
+
     display: block;
-    margin: 0 32px;
+    transform: translateY(-308px);
+    margin: 0 32px -272px 32px;
   }
 
   #summary img {
