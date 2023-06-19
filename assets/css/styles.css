@@ -428,13 +428,36 @@ footer section {
 }
 
 @media screen and (max-width: 640px) {
+  #hero {
+    width: 100%;
+  }
+
+  #hero img {
+    height: 332px;
+  }
+
   #summary {
+    text-align: center;
+    width: 100% -32px;
     display: block;
-    margin-left: auto;
+    margin: 0 32px;
   }
 
   #summary img {
+    height: 112px;
+  }
+
+  .hero-tag {
+    width: 100%;
+  }
+
+  .left-title {
+    margin: 0 auto 16px auto;
+  }
+
+  .contact-link {
     margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    text-align: center;
   }
 }
