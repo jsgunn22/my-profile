@@ -42,6 +42,10 @@
   --opacity-danger: #fd595926;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   font-family: "Roboto";
   font-weight: 900;
@@ -107,7 +111,8 @@ body {
 header {
   height: 64px;
   width: 100%;
-  position: relative;
+  position: fixed;
+  z-index: 1;
   margin: 0;
   background-color: var(--primary-500);
   padding: 12px 32px;
@@ -150,7 +155,7 @@ nav {
 
 /* Hero section */
 #hero img {
-  height: 272px;
+  height: 336px;
   width: 100%;
   object-fit: cover;
 }
@@ -451,6 +456,7 @@ footer section {
 
   #summary img {
     height: 112px;
+    margin: 0;
   }
 
   .hero-tag {
