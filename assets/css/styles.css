@@ -372,6 +372,9 @@ footer section {
 }
 
 @media screen and (max-width: 1024px) {
+  main {
+    margin-top: 24px;
+  }
   .left-title {
     /* styles the left section */
     color: var(--primary-500);
