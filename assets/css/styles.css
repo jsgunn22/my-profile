@@ -365,6 +365,7 @@ footer section {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+  z-index: 1;
 }
 
 .tooltip:hover::after {
