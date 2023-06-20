@@ -275,6 +275,11 @@ main img {
 #work-imgs {
   width: 100%;
 }
+
+#work-imgs img:hover {
+  opacity: 0.8;
+}
+
 #most-recent-app-container {
   padding: 0 8px;
 }
