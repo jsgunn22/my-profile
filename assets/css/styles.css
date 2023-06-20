@@ -40,6 +40,9 @@
   --opacity-success: #2eb96e26;
   --opacity-warning: #f0b77526;
   --opacity-danger: #fd595926;
+
+  /* Stylings */
+  --overlay-shadow: 0px 4px 24px rgba(24, 30, 36, 0.16);
 }
 
 html {
@@ -154,7 +157,7 @@ nav {
   right: 24px;
   background-color: var(--neutral-000);
   border-radius: 4px;
-  box-shadow: 0px 4px 24px rgba(24, 30, 36, 0.16);
+  box-shadow: var(--overlay-shadow);
   display: none;
 }
 
@@ -331,6 +334,41 @@ footer section {
   padding: 8px;
   color: var(--neutral-000);
   margin-bottom: -60px;
+
+  & div {
+    display: flex;
+    & i {
+      font-size: 16px;
+      margin: auto 8px;
+    }
+  }
+}
+
+/* Targets for tooltips */
+.tooltip {
+  cursor: pointer;
+}
+
+.tooltip::after {
+  content: attr(data-feature);
+  position: absolute;
+  top: -56px;
+  left: 56px;
+  padding: 16px;
+  width: 150%;
+  background-color: var(--neutral-000);
+  border-radius: 4px;
+  box-shadow: var(--overlay-shadow);
+  color: var(--neutral-900);
+  display: none;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.tooltip:hover::after {
+  display: flex;
 }
 
 @media screen and (max-width: 1024px) {
