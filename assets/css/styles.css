@@ -126,6 +126,10 @@ header h1 {
 }
 
 nav {
+  margin-left: auto;
+}
+
+#standard-nav {
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
@@ -133,6 +137,16 @@ nav {
 
 /* Responsive elements hidden */
 .responsive-md {
+  display: none;
+}
+
+#overflow {
+  position: absolute;
+  top: 60px;
+  right: 24px;
+  background-color: var(--neutral-000);
+  border-radius: 4px;
+  box-shadow: 0px 4px 24px rgba(24, 30, 36, 0.16);
   display: none;
 }
 
@@ -397,7 +411,6 @@ footer section {
 
   header {
     display: block;
-    height: fit-content;
   }
 
   nav {
@@ -407,8 +420,18 @@ footer section {
     margin-top: 16px;
   }
 
+  #overflow {
+    display: block;
+  }
+
+  #standard-nav {
+    display: none;
+  }
+
   .nav-link {
     height: fit-content;
+    color: var(--neutral-900);
+    margin: 12px 16px;
   }
 
   .nav-link h3 {
@@ -419,11 +442,11 @@ footer section {
   }
 
   #hero img {
-    height: 232px;
+    height: 296px;
   }
 
   #summary {
-    top: 142px;
+    top: 96px;
   }
 
   #summary img {
