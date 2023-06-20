@@ -255,7 +255,6 @@ main section {
 
 main img {
   border: var(--primary-500) solid 4px;
-  border-radius: 8px;
 }
 
 .left-title {
