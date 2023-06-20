@@ -465,15 +465,14 @@ footer section {
   }
 
   #hero img {
-    height: 332px;
+    height: 396px;
   }
 
   #summary {
     position: static;
     text-align: center;
-
     display: block;
-    transform: translateY(-308px);
+    transform: translateY(-304px);
     margin: 0 16px -272px 16px;
   }
 
