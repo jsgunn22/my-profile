@@ -368,22 +368,6 @@ footer section {
 }
 
 @media screen and (max-width: 768px) {
-  #most-recent-app-container {
-    padding: 0;
-  }
-
-  #work-img-grid {
-    width: 100%;
-    display: block;
-
-    margin-top: 8px;
-  }
-
-  .small-img {
-    width: 100%;
-    padding: 8px 0;
-  }
-
   #about-me {
     display: block;
   }
@@ -489,6 +473,22 @@ footer section {
 }
 
 @media screen and (max-width: 640px) {
+  #most-recent-app-container {
+    padding: 0;
+  }
+
+  #work-img-grid {
+    width: 100%;
+    display: block;
+
+    margin-top: 8px;
+  }
+
+  .small-img {
+    width: 100%;
+    padding: 8px 0;
+  }
+
   #hero {
     width: 100%;
   }
