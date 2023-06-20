@@ -272,6 +272,9 @@ main img {
 #work-imgs {
   width: 100%;
 }
+#most-recent-app-container {
+  padding: 0 8px;
+}
 
 #most-recent-app {
   width: 100%;
@@ -282,13 +285,12 @@ main img {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
   margin-top: 16px;
 }
 
 .small-img {
-  flex: 1 0 332px;
-  width: 332px;
+  width: 50%;
+  padding: 8px;
 }
 
 .small-img img {
@@ -366,17 +368,20 @@ footer section {
 }
 
 @media screen and (max-width: 768px) {
+  #most-recent-app-container {
+    padding: 0;
+  }
+
   #work-img-grid {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    margin-top: 16px;
+    display: block;
+
+    margin-top: 8px;
   }
 
   .small-img {
-    flex: 1 0 200px;
-    width: 100px;
+    width: 100%;
+    padding: 8px 0;
   }
 
   #about-me {
