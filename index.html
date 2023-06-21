@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <script src="https://kit.fontawesome.com/fdc6f3befd.js" crossorigin="anonymous"></script>
-
     <title>Jeffrey Gunn's Portofolio</title>
   </head>
   <body>
+    <!-- header and nav.  Sticky to top -->
     <header> 
       <a href="#"><h1>Jeffrey Gunn</h1></a>
       <nav>
@@ -21,6 +20,7 @@
             <div class="nav-link"><a href="#contact-me"><h3>Contact Me</h3></div></a>
             <div class="nav-link"><a href="#"><h3>My Resume</h3></div></a>
         </div>
+        <!-- overflow nav hidden >768px viewport -->
         <div id="overflow-icon">
             <i class="fa-solid fa-bars"></i>
         </div>
@@ -32,6 +32,7 @@
         </div>
       </nav>
     </header>
+    <!-- Hero section -->
     <div id="hero">
         <img src="./assets/images/software.png" 
         alt="Stock photo of random code"
@@ -60,6 +61,7 @@
         <div class="responsive-lg hero-tag"><h2>Sacramento, CA</h2></div>
     </div>
     <main>
+        <!-- About me bio -->
         <section id="about-me">
             <div class="left-title">
                 <h1>About Me</h1>
@@ -71,11 +73,13 @@
                 I have always been interested in the engineering side of the software development so in 2023 I took on a Web Developer Full Stack bootcamp.  I look forward to learning as much as I can to one day apply both my design and development skills to a product that I can feel passionate about. 
             </p>
         </section>
+        <!-- imgage section. Each image links to url -->
         <section id="my-work">
             <div class="left-title">
                 <h1>My Work</h1>
             </div>
             <div id="work-imgs">
+                <!-- larger image -->
                 <div id="most-recent-app-container">
                     <a href="https://jsgunn22.github.io/bootcamp-challenge1-accessability-refactor/">
                         <img src="./assets/images/horiseon.png" alt="" id="most-recent-app">
@@ -88,6 +92,7 @@
                         <p class="medium-text">Semantic HTML</p>
                     </div>
                 </div>
+                <!-- smaller image grid -->
                 <div id="work-img-grid">
                         <div class="small-img">
                             <a href="https://jsgunn22.github.io/dice-game-js/">
@@ -136,6 +141,7 @@
             </div>
         </section>
     </main>
+    <!-- footer: contact me section -->
     <footer>
         <section id="contact-me">
             <div class="left-title">
