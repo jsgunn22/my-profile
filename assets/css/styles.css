@@ -78,53 +78,53 @@ html {
 }
 
 h1 {
-  font-family: "Roboto";
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 40px;
+  font-family: var(--font-family-default);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-h1-size);
+  line-height: var(--font-h1-line-height);
   margin: 0;
 }
 
 h2 {
-  font-family: "Roboto";
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 32px;
+  font-family: var(--font-family-default);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-h2-size);
+  line-height: var(--font-h2-line-height);
 }
 
 h3 {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+  font-family: var(--font-family-default);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-h3-size);
+  line-height: var(--font-h3-line-height);
 }
 
 h4 {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  font-family: var(--font-family-default);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-h4-size);
+  line-height: var(--font-h4-line-height);
 }
 
 .large-text {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-family: var(--font-family-default);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-large-text-size);
+  line-height: var(--font-large-text-line-height);
 }
 
 .medium-text {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-family: var(--font-family-default);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-medium-text-size);
+  line-height: var(--font-medium-text-line-height);
 }
 
 .small-text {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-family: var(--font-family-default);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-small-text-size);
+  line-height: var(--font-small-text-line-height);
 }
 
 i {
@@ -398,10 +398,10 @@ footer section {
   box-shadow: var(--overlay-shadow);
   color: var(--neutral-900);
   display: none;
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  font-family: var(--font-family-default);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-medium-text-size);
+  line-height: var(--font-medium-text-line-height);
   z-index: 1;
 }
 
@@ -467,10 +467,10 @@ footer section {
   }
 
   .left-title h1 {
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
+    font-family: var(--font-family-default);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-h3-size);
+    line-height: var(--font-h3-line-height);
   }
 
   #my-work {
@@ -486,17 +486,17 @@ footer section {
   }
 
   .contact-link h3 {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+    font-family: var(--font-family-default);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-large-text-size);
+    line-height: var(--font-large-text-line-height);
   }
 
   #summary-text h2 {
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
+    font-family: var(--font-family-default);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-h3-size);
+    line-height: var(--font-h3-line-height);
   }
 
   header {
@@ -548,10 +548,10 @@ footer section {
   }
 
   .nav-link h3 {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+    font-family: var(--font-family-default);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-large-text-size);
+    line-height: var(--font-large-text-line-height);
   }
 }
 
